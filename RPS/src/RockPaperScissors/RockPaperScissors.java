@@ -79,7 +79,7 @@ public class RockPaperScissors
 		}
 		
         // Input validation loop for replay option
-        while (true)
+			while (true)
         	{
             System.out.println("Do you want to play again? (Y/N)");
             String playAgain = scanner.nextLine().trim().toUpperCase();
